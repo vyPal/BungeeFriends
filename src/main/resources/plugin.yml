@@ -1,0 +1,20 @@
+name: BungeeFriends
+main: com.vypalstudios.BungeeFriends.BungeeFriends
+version: 1.0-SNAPSHOT
+author: vyPal
+
+commands:
+  friend:
+    description: The main command
+    aliases:
+      - friends
+      - f
+  message:
+    description: The messaging command
+    aliases:
+      - messages
+
+permissions:
+  frineds.default:
+    description: The permission for the /friend command
+    default: op

@@ -1,0 +1,13 @@
+# ------BungeeFriends by vyPal------
+# Sections marked * are required
+# ----------------------------------
+
+# * Setup the connection to a mysql database
+MySQL:
+  username: root
+  password: root
+  host: localhost
+  database: friends
+  port: 3306
+# Set the language of the plugin. Available: ENGLISH
+Locale: ENGLISH
